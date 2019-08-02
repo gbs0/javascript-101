@@ -15,24 +15,21 @@ body {
   margin-right: auto;
   margin-left: auto;
   display: flex;
+  justify-content: space-around;
 }
 
 .vinyl {
-	width: 30vw;
+	width: 25vw;
 	position: absolute;
   z-index: 1;
-  margin: auto;
-  
-  
-
 }
 
-.stand {
+/*.stand {
   position: absolute;
   margin-left: 90px;
   z-index: 0;
   margin-top: 90px;
-}
+}*/
 
 .button {
   color: #999999;
