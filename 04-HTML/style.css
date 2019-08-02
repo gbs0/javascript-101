@@ -1,3 +1,8 @@
+/*Importar Fonte*/
+@import url('https://fonts.googleapis.com/css?family=Scope+One&display=swap');
+
 body {
 	background-color: #43A2AF;
+	font-family: 'Scope One', serif;
+	color: white;
 }
