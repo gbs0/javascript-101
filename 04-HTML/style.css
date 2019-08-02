@@ -37,7 +37,7 @@ body {
   border: 1px solid #999999;
   padding: 10px 45px;
   border-radius: 30px;
-  font-weight: lighter;
+  font-weight: bolder;
   /*opacity: 0.6;*/
   text-decoration: none;
 }
