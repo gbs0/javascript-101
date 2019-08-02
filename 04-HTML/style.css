@@ -14,12 +14,16 @@ body {
   padding-left: 5em;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
 }
 
 .vinyl {
 	width: 30vw;
 	position: absolute;
   z-index: 1;
+  align-content: center;
+  align-items: center;
+  
 }
 
 .stand {
