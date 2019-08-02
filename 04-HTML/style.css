@@ -1,10 +1,19 @@
-/*Importar Fonte*/
+/*Google Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Scope+One&display=swap');
 
+/*Fonte & Background*/
 body {
-	background-color: #43A2AF;
+	background-color: #E2C044;
 	font-family: 'Scope One', serif;
 	color: white;
+}
+
+/*Margem da página*/
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .vinyl {
