@@ -32,6 +32,12 @@ body {
   margin-top: 90px;
 }*/
 
+.player {
+	display: flex;
+	justify-content: space-around;
+}
+
+
 .button {
   color: #999999;
   padding: 13px 45px;
