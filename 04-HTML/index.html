@@ -14,12 +14,11 @@
 
       <h1>Jukebox</h1>
       <div class="container">
-
-        <img src="images/vinyl.png" class="vinyl" />
+        <img src="images/vinyl.png" class="vinyl" onMouseOver=moveVinyl(1) onMouseOut=moveVinyl(2) onClick=moveVinyl(3)/>
       </div>   
       <div class="player">
-        <a href="" class="button">Play</a>
-        <a href="" class="button">Stop</a>
+        <a href="" class="button" onClick=moveVinil(3)>Play</a>
+        <a href="" class="button" onClick=moveVinyl(1)>Stop</a>
       </div>
 
       <!-- Codigo do movimento -->
