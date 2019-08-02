@@ -10,8 +10,8 @@ body {
 
 /*Margem da página*/
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 5em;
+  padding-left: 5em;
   margin-right: auto;
   margin-left: auto;
 }
