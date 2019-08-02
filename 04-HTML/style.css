@@ -17,12 +17,14 @@ body {
   display: flex;
   justify-content: space-around;
   height: 450px;
+  padding-bottom: 4em;
 }
 
 .vinyl {
 	width: 25vw;
 	position: absolute;
   z-index: 1;
+  padding-top: 4em;
 }
 
 /*.stand {
