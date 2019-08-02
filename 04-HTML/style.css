@@ -16,6 +16,7 @@ body {
   margin-left: auto;
   display: flex;
   justify-content: space-around;
+  height: 450px;
 }
 
 .vinyl {
@@ -34,7 +35,7 @@ body {
 .button {
   color: #999999;
   border: 1px solid #999999;
-  padding: 10px 15px;
+  padding: 10px 45px;
   border-radius: 50px;
   font-weight: lighter;
   opacity: 0.6;
