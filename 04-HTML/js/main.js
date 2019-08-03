@@ -17,6 +17,7 @@ let isPaused = false
   const moveVinyl = (n) => {
   // let lamp = document.getElementById("lamp")
   if (!isPaused){
+    // Play Vinyl
     if (n === 1){
       // Stop
 			TweenMax.to(fan, 2, {rotation:360, repeat: 0, ease:Back.easeOut})
