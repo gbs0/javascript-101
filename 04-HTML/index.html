@@ -10,7 +10,7 @@
     </head>
     <body>
       <!-- Biblioteca TweenMax -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+      <script src="js/TweenMax.min.js"></script>
       
 
       <h1>Jukebox</h1>
@@ -19,8 +19,8 @@
         <!-- onMouseOut=moveVinyl(2) -->
       </div>   
       <div class="player">
-        <button>Play</button>
-        <!-- <button onClick=moveVinyl(3)>Stop</button> -->
+        <button class="button" onclick="moveVinyl(1)">Play</button>
+        <button class="button" onclick="moveVinyl(3)">Stop</button>
       </div>
 
       <!-- Codigo do movimento -->
