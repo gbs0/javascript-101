@@ -1,6 +1,4 @@
-console.log("Hello World!");
-
-let vinyl = document.querySelector(".vinyl");
+const vinyl = document.querySelector(".vinyl");
 
 let isPaused = false
 const moveVinyl = (event) => {
