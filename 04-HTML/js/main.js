@@ -12,17 +12,16 @@ let IsPaused = false
 playButton.onclick = function() {
   tl.play();
   console.log("Playing vinyl");
-  // TweenMax.to(vinyl, 2, {rotation:360, repeat:-1, ease:Linear.easeInOut});
 }
 
 stopButton.onclick = function() {
   tl.pause();
-	// Stop playing vinil
+	console.log("Pause vinyl");
 }
 
 reverseButton.onclick = function() {
 	tl.reverse();
-	// TweenMax.to(vinyl, 2, {rotation:-1, repeat:-1, ease:Linear.easeInOut});
+	console.log("Reverse vinyl");
 }
 
 // let isPaused = false
