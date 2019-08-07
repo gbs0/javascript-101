@@ -1,9 +1,7 @@
 // Timeline
 const tl = new TimelineMax({paused:true});
-// Audio
-const audio = new Audio('audio_file.mp3');
-audio.play();
 
+// HTML Elements
 const vinyl = document.querySelector(".vinyl");
 const playButton = document.querySelectorAll("button")[0];
 const reverseButton = document.querySelectorAll("button")[1];
