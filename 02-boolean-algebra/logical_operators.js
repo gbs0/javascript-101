@@ -16,3 +16,9 @@ let sunny = true;
 if (!sunny) {
 	console.log("Cancel the beach");
 }
+
+// Extra "!" logical Operator
+let weather = "raining";
+if (weather !== "sunny") {
+  console.log("Cancel the beach");
+}
