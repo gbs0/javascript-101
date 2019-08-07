@@ -4,7 +4,7 @@
 ## Introduce `JS Bin`
 > Ferramenta que utilizaremos no workshop p/ escrever `Javascript`
 
-> `https://jsbin.com/?console`
+> `https://jsbin.com/?js,console`
 
 ## Explaing about types of `Data` in JS
 
