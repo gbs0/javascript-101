@@ -11,3 +11,8 @@ if (day === "Saturday" || day === "Sunday") {
 	console.log("It's the week-end!");
 }
 
+// Logical "!" Operator
+let sunny = true;
+if (!sunny) {
+		console.log("Cancel the beach");
+}

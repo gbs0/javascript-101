@@ -107,22 +107,18 @@ console.log(greetings);
 	}
 ```
 *****
-> **! | "Not" Operator:** Boolean que retorna `true` quando **duas** váriaveis são **verdadeiras**
+> **! | "Not" Operator:** Boolean que retorna o oposto de um boolean na **própria** variável
 
->| a        | b           | result  |
-| ------------- |:-------------:| -----:|
-| false      | false | false |
-| false      | true      |   false |
-| true | false      |    false |
-| true | true      |    `true` |
-
-  
-```
-	let rain = true;
-	let wind = true;
-
-	if (rain && wind) {
-  		console.log("Really stay at home!”);
-  	}
+>| a        | result           | 
+| ------------- |:-------------:|
+| true      | false |
+| false      | `true`      |
 
 ```
+	let sunny = true;
+
+	if (!sunny) {
+  		console.log("Cancel the beach");
+	}
+```
+*****
