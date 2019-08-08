@@ -122,3 +122,46 @@ console.log(greetings);
 	}
 ```
 *****
+
+
+## Explaing about `Loops`
+
+#### • for & forEach:
+Explicar a diferença entre `for` e `forEach`.
+
+**for:** Utilizamos normalmente para contadores e iteradores (`i`, `i++`)
+
+**forEach:** Utilizamos normalmente quando queremos passar por cada elemento de um objeto
+
+> • 2º Exercicio do workshop: Listar os nomes dentro de uma variável contendo apenas a letra "B"
+
+```json
+const names = ["Ben", "Bob", "John"];
+let bNames = "";
+
+names.forEach((name) => {
+  if (name[0] === "B") {
+    console.log(name);
+  }
+});
+```
+#### • While:
+Roda o código **enquanto** uma variável for verdadeira
+
+**for:** Utilizamos normalmente para contadores e iteradores (`i`, `i++`)
+
+**forEach:** Utilizamos normalmente quando queremos passar por cada elemento de um objeto
+
+> • 2º Exercicio do workshop: Listar os nomes dentro de uma variável contendo apenas a letra "B"
+
+```json
+const names = ["Ben", "Bob", "John"];
+let bNames = "";
+
+names.forEach((name) => {
+  if (name[0] === "B") {
+    console.log(name);
+  }
+});
+```
+ 
