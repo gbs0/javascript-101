@@ -216,6 +216,6 @@ Manipulação o **DOM** atráves de um motor que processa e copila o JavaScript 
 
 > **Single Images:**
 
-`document.querySelectorAll("img")[0];`	
+`document.querySelectorAll("img")[0];`
 
 
