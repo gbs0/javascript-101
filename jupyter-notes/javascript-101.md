@@ -175,3 +175,47 @@ const multiply = (first, last) => {
 
 multiply(5, 2);
 ```
+
+## Explaing about `DOM`
+
+Manipulação o **DOM** atráves de um motor que processa e copila o JavaScript em uma linguagem em + baixo nível
+
+• Compila `JS` + em **Linguagem de Máquina**
+
+> É uma engine Open Source criada pelo Google
+
+```
+
+```
+> 4º Exercicio do workshop: Extrair texto de uma variável proveniente do Google Chrome
+
+
+>  **Single Title:**
+
+`document.querySelector(".title")`
+
+> **Extract Text from Title:**
+
+`document.querySelector(".title")`
+
+> **All Titles:**
+
+`document.querySelectorAll(".title");`
+
+> **All Posts:**
+
+`document.querySelectorAll(".title");`
+
+> **Single Post:**
+
+`document.querySelectorAll(".title")[0];`
+
+> **All Images:**
+
+`document.querySelectorAll("img");`
+
+> **Single Images:**
+
+`document.querySelectorAll("img")[0];`	
+
+
