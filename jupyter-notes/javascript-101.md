@@ -219,3 +219,46 @@ Manipulação o **DOM** atráves de um motor que processa e copila o JavaScript 
 `document.querySelectorAll("img")[0];`
 
 
+## Explaing about `Event Handling`
+
+Conseguimos adicionar estados e atribuí-los por meio de 
+`Event Handlers`. 
+
+São gatilhos que quando determinadas ações são feitas, podemos determinar comportamentos para qualquer componente HTML
+
+> 5º Exercicio do workshop: Adicionar eventos `onclick` em um objeto HTML, a partir de uma biblioteca em JS
+
+
+```
+// Timeline
+const tl = new TimelineMax({paused:true});
+
+// HTML Elements
+const vinyl = document.querySelector(".vinyl");
+const playButton = 
+document.querySelectorAll("button")[0];
+const reverseButton = 
+document.querySelectorAll("button")[1];
+const stopButton = 
+document.querySelectorAll("button")[2];
+
+tl.to(vinyl, 1, 
+{rotation:360, repeat:-1, ease:Linear.easeInOut}); 
+
+playButton.onclick = function() {
+  tl.play();
+  console.log("Playing vinyl");
+}
+
+stopButton.onclick = function() {
+  tl.pause();
+	console.log("Pause vinyl");
+}
+
+reverseButton.onclick = function() {
+	tl.reverse();
+	console.log("Reverse vinyl");
+}
+```
+
+
