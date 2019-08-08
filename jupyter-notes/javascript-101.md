@@ -148,20 +148,30 @@ names.forEach((name) => {
 #### • While:
 Roda o código **enquanto** uma variável for verdadeira
 
-**for:** Utilizamos normalmente para contadores e iteradores (`i`, `i++`)
-
-**forEach:** Utilizamos normalmente quando queremos passar por cada elemento de um objeto
-
-> • 2º Exercicio do workshop: Listar os nomes dentro de uma variável contendo apenas a letra "B"
+> • Demonstrar com uma variável de Array e explicar o contator `i` em relação ao índice da variável
 
 ```json
-const names = ["Ben", "Bob", "John"];
-let bNames = "";
+const beattles = ["Paul", "Ringo", "John", "George"];
+let i = 0;
 
-names.forEach((name) => {
-  if (name[0] === "B") {
-    console.log(name);
-  }
-});
+while (i < beatles.length) {
+  console.log(beatles[i]);
+  i += 1;
+}
 ```
  
+## Explaing about `Functions`
+
+Funções são como caixas mágicas, recebem algum dado em sua entrada, processam esse dado e produzem um resultado especifíco
+
+Funções geralmente precisam de `argumentos`, que são os dados com o qual a função irá lidar
+
+> • 3º Exercicio do workshop: Escrever uma função de `calculadora` que multiplica os parametros recebidos entre si
+
+```json
+const multiply = (first, last) => {
+  console.log(first * last);
+};
+
+multiply(5, 2);
+```
