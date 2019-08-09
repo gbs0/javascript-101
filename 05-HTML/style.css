@@ -15,9 +15,10 @@ body {
   margin-right: auto;
   margin-left: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   height: 450px;
-  padding-bottom: 4em;
+  margin-bottom: 4em;
 }
 
 .vinyl {

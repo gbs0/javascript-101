@@ -1,5 +1,6 @@
 console.log("Olá mundo");
 
+
 const tl = new TimelineMax({paused: true});
 // Vinyl Img
 const vinyl = document.querySelector(".vinyl");
