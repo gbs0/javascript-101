@@ -1,7 +1,7 @@
-const greetings = require('../concatenate_strings');
+const weather = require('../logical_operators');
 
-test('#greetings should handle empty string', () => {
-  expect(greetings('')).toBe('Hello !');
+test('#wheater should handle empty string', () => {
+  expect(greetings('')).toBe('');
 })
 
 // test('#greetings should return user name', () => {
