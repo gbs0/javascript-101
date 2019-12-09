@@ -1,3 +1,3 @@
-let name = "Name";
-const greetings = `Hello ${name}`;
-console.log(greetings);
+function greetings(name) {
+	return `Hello ${name}`;
+}
