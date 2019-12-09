@@ -1,7 +1,10 @@
 const weather = require('../logical_operators');
 
 test('#wheater should handle empty string', () => {
-  expect(greetings('')).toBe('');
+  let rain = true;
+	let wind = true;
+
+  expect(weather(rain, wind)).toBe("Really stay at home!");
 })
 
 // test('#greetings should return user name', () => {
