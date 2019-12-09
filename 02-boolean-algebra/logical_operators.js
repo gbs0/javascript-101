@@ -10,17 +10,19 @@ function weather([]) {
 		return "Really stay at home!";
 	}	
 
-	if (day === "Saturday" || day === "Sunday") { // Logical "||" Operator
+	else if (day === "Saturday" || day === "Sunday") { // Logical "||" Operator
 		return "It's the week-end!";
 	}
 
-	if (!sunny) { // Logical "!" Operator
+	else if (!sunny) { // Logical "!" Operator
 		return "Cancel the beach";
 	}	
 	
-	if (weather !== "sunny") { // Extra "!" logical Operator
+	else if (raining !== "sunny") { // Extra "!" logical Operator
    return "Cancel the beach";
 	}
 }
+
+// console.log( weather([rain, wind]) );
 
 module.exports = weather;
