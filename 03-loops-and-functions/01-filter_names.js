@@ -1,7 +1,11 @@
 const names = ["Ben", "Bob", "John", "Ringo"];
+const listedNames = [];
 
-names.forEach((name) => {
-  if (name[0] === "B") {
-    console.log(name);
-  }
-});
+function listNames(names) {
+	names.forEach((name) => {
+  	if (name[0] === "B") {
+    	listedNames.push(name);
+  	}
+	});
+	console.log(listedNames);
+}

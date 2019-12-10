@@ -1,6 +1,6 @@
 // Logical "&&"" Operator
-let rain = null;
-let wind = null;
+let rain = true;
+let wind = true;
 let day = "Saturday";
 let sunny = true;
 let raining = "raining";
@@ -10,7 +10,7 @@ function weather() {
 		return ("Really stay at home!")
 	}	
 
-	if (day === "Saturday" || day === "Sunday") { // Logical "||" Operator
+	else if (day === "Saturday" || day === "Sunday") { // Logical "||" Operator
 		return ("It's Weekend!")
 	}
 
@@ -24,5 +24,4 @@ function weather() {
 }
 
 // console.log( weather([rain, wind]) );
-
-module.exports = weather;
+module.exports = wheater;
