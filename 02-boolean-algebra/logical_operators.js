@@ -5,7 +5,7 @@ let day = "Saturday";
 let sunny = true;
 let raining = "raining";
 
-function weather([]) {
+function weather() {
 	if (rain && wind) {
 		return "Really stay at home!";
 	}	
