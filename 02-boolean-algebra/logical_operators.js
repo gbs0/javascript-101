@@ -1,17 +1,17 @@
 // Logical "&&"" Operator
-let rain = true;
-let wind = true;
+let rain = null;
+let wind = null;
 let day = "Saturday";
 let sunny = true;
 let raining = "raining";
 
 function weather() {
 	if (rain && wind) {
-		return "Really stay at home!";
+		return ("Really stay at home!")
 	}	
 
-	else if (day === "Saturday" || day === "Sunday") { // Logical "||" Operator
-		return "It's Weekend!";
+	if (day === "Saturday" || day === "Sunday") { // Logical "||" Operator
+		return ("It's Weekend!")
 	}
 
 	else if (!sunny) { // Logical "!" Operator
