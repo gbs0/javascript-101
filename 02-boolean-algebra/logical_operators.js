@@ -11,7 +11,7 @@ function weather() {
 	}	
 
 	else if (day === "Saturday" || day === "Sunday") { // Logical "||" Operator
-		return "It's the week-end!";
+		return "It's Weekend!";
 	}
 
 	else if (!sunny) { // Logical "!" Operator

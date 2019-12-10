@@ -1,14 +1,15 @@
 const weather = require('../logical_operators');
 
-test('#wheater should return correct response', () => {
-  let rain = true;
-	let wind = true;
+describe('#weather should return correct responses for', () => {
+  const rain = true;
+  const wind = true;
+  const day = "Saturday";
 
-  expect(weather(rain, wind)).toBe("Really stay at home!");
-  // expect(weather(rain, wind)).toBe([rain, wind].every(bool => bool === true));
-  // expect(weather(rain, wind)).toBe([rain, wind].every(Boolean));
+  it('Rain and Wind equals to true', () => {
+	  expect(weather([rain, wind])).toBe("Really stay at home!");
+  });
+  
+  it('It says when there are weekends', () => {
+	  expect(weather("Saturday")).toBe("It's Weekend!");
+  });
 });
-
-// test('#greetings should return user name', () => {
-//   expect(greetings('alice')).toBe('Hello Alice!'); 
-// })
