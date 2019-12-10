@@ -6,6 +6,9 @@ function listNames(names) {
   	if (name[0] === "B") {
     	listedNames.push(name);
   	}
+  	console.log(listedNames);
 	});
-	console.log(listedNames);
 }
+
+console.log(listedNames);
+
