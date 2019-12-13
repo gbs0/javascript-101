@@ -1,6 +1,16 @@
-// Code a multiply calculator
-const multiply = (first, last) => {
-  console.log(first * last);
-};
+// Code a calculator
+const sum = (n1, n2) { // const sum = (a, b) => a + b
+	return n1 + n2
+}
 
-multiply(5, 2);
+const multiply = (n1, n2) {  // const multiply = (a, b) => a * b
+	return n1 * n2
+}
+
+const subtraction = (n1, n2) { // const sub = (a, b) => a - b
+	return n1 - n2	
+}
+
+const division = (n1, n2) {  // const div(a, b) => a / b
+	return n1 / n2
+}
