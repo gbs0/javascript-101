@@ -5,7 +5,7 @@ let day = "Saturday";
 let sunny = true;
 let raining = "raining";
 
-const weather = weather() => {
+const weather = () => {
 	if (rain) {
 		if (rain && wind) {
 			return ("Really stay at home!")
