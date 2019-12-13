@@ -24,6 +24,6 @@ const weather = () => {
 }
 
 // console.log( weather([rain, wind]) )
-console.log(weather(day))
+// console.log(weather(day))
 
 module.exports = weather;
