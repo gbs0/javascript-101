@@ -1,5 +1,5 @@
 // Logical "&&"" Operator
-let rain = false;
+let rain = true;
 let wind = false;
 let day = "Saturday";
 let sunny = true;

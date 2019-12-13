@@ -2,9 +2,11 @@ const weather = require('../logical_operators');
 
 describe('Matching weather status', () => {
   // Applies only to tests in this describe block
+  let rain = true;
+  let wind = true;
+  
   beforeEach(() => {
-    let rain = true;
-    let wind = true;
+    
   });
 
   it('Test if rain and wind weather return the right result', () => {

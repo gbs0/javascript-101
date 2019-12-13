@@ -14,3 +14,5 @@ const subtraction = (n1, n2) { // const sub = (a, b) => a - b
 const division = (n1, n2) {  // const div(a, b) => a / b
 	return n1 / n2
 }
+
+module.exports = { sum, multiply, subtraction, division };
